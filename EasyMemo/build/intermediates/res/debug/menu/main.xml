@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.memo.MainActivity" >
+    <item 
+        android:id="@+id/setAlarm" 
+        android:title="设置铃声"
+        android:orderInCategory="1">
+      
+    </item>
+    
+    <item 
+        android:id="@+id/exit" 
+        android:title="退出"
+        android:orderInCategory="2">
+      
+    </item>
+
+    
+
+</menu>
+<!-- From: file:/D:/MyCode/EasyMemo/EasyMemo/res/menu/main.xml -->

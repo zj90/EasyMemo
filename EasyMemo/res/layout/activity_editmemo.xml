@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+     >
+	
+
+<!--      <TextView
+        android:id="@+id/detail_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+
+       /> -->
+
+	<!-- toolbar 1 -->
+    <LinearLayout
+        android:id="@+id/detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/white" >
+
+        <RadioGroup
+            android:id="@+id/detail_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/detail_radio0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="普通"
+                android:textColor="@color/blue" />
+
+            <RadioButton
+                android:id="@+id/detail_radio1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="重要"
+                android:textColor="@color/orange" />
+
+            <RadioButton
+                android:id="@+id/detail_radio2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="紧急"
+                android:textColor="@color/red" />
+        </RadioGroup>
+    </LinearLayout>
+    
+	<View 
+	     android:id="@+id/detail_line"
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_below="@+id/detail_toolbar"
+         android:background="?android:attr/listDivider"
+         
+         />
+     
+     <EditText
+        android:id="@+id/detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/detail_bottom_ll"
+        android:layout_below="@+id/detail_line"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_border_corners"
+        android:padding="10dp"
+        android:gravity="top"
+        android:hint="请输入内容" >
+    </EditText>
+     
+
+   
+
+    <RelativeLayout
+        android:id="@+id/detail_bottom_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#DBDBDB" >
+
+        <Button
+            android:id="@+id/detail_bnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DBDBDB"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:drawableTop="@drawable/share"
+             />
+
+        <Button
+            android:id="@+id/detail_bnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#DBDBDB"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:drawableTop="@drawable/bin" />
+        
+    </RelativeLayout>
+    
+     
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\MyCode\EasyMemo\AndroidSwipeLayout\res"><file path="D:\MyCode\EasyMemo\AndroidSwipeLayout\res\values\attrs.xml" qualifiers=""><declare-styleable name="SwipeLayout">
+        <attr format="enum" name="drag_edge">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr format="enum" name="show_mode">
+            <enum name="lay_down" value="0"/>
+            <enum name="pull_out" value="1"/>
+        </attr>
+    </declare-styleable></file></source><source path="D:\MyCode\EasyMemo\AndroidSwipeLayout\build\generated\res\rs\debug"/><source path="D:\MyCode\EasyMemo\AndroidSwipeLayout\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="D:\MyCode\EasyMemo\AndroidSwipeLayout\build-types\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SwipeLayout"><attr format="enum" name="drag_edge"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="top" value="2"/><enum name="bottom" value="3"/></attr><attr format="enum" name="show_mode"><enum name="lay_down" value="0"/><enum name="pull_out" value="1"/></attr></declare-styleable></configuration></mergedItems></merger>

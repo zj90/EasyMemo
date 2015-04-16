@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.zj90.memo.activity.DetailActivity" >
+
+    <item
+        android:id="@+id/menu_deatil_save"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="更新   "
+        android:icon="@drawable/change"
+        />
+
+</menu>
+<!-- From: file:/D:/MyCode/EasyMemo/EasyMemo/res/menu/menu_detail.xml -->

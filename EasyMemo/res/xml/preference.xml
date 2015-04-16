@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="应用设置">
+    <CheckBoxPreference android:title="是否按事件优先级排序" android:summaryOff="不按事件优先级排序" android:summaryOn="按事件优先级排序" android:key="sort_event" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="是否先创建的排在前" android:key="sort_time" android:summaryOff="后创建的排在前" android:defaultValue="true" android:summaryOn="先创建的排在前"/>
+    <ListPreference android:entries="@array/array_listspan_enrty" android:dialogTitle="备忘录列表间隔" android:entryValues="@array/array_listspan_value" android:negativeButtonText="取消" android:key="item_distance" android:defaultValue="1" android:title="设置备忘录列表间距" android:summary="点击选择"/>
+    
+
+</PreferenceScreen>

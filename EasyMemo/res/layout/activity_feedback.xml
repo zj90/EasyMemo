@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edittext_background" >
+
+        <EditText
+            android:id="@+id/feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/textview_border_corners"
+            android:gravity="top"
+            android:hint="欢迎反馈，请输入反馈意见"
+            android:padding="10dp" />
+        
+    </LinearLayout>
+
+    
+    
+    <!--  address -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="联系方式："
+            android:textSize="20dp" />
+        
+        <EditText
+            android:id="@+id/feedback_clientaddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="您的邮箱或QQ(可不填)"
+            android:background="@null"
+             />
+    </LinearLayout>
+        
+        <Button
+        android:id="@+id/feedback_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_background"
+        android:text="提交" />
+
+
+    
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidSwipeLayout/AndroidSwipeLayout.iml" filepath="$PROJECT_DIR$/AndroidSwipeLayout/AndroidSwipeLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EasyMemo.iml" filepath="$PROJECT_DIR$/EasyMemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EasyMemo/EasyMemo-EasyMemo.iml" filepath="$PROJECT_DIR$/EasyMemo/EasyMemo-EasyMemo.iml" />
+    </modules>
+  </component>
+</project>

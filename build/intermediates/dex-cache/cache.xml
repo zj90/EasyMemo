@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\MyCode\EasyMemo\EasyMemo\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="D:\MyCode\EasyMemo\EasyMemo\build\intermediates\pre-dexed\debug\mail-d94744b669da021e27b6d6cd9b57a4998f44486f.jar" />
+    </item>
+    <item
+        jar="D:\MyCode\EasyMemo\EasyMemo\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="D:\MyCode\EasyMemo\EasyMemo\build\intermediates\pre-dexed\debug\additionnal-6d7017741db73ee37207057160bff41936839e87.jar" />
+    </item>
+    <item
+        jar="D:\MyCode\EasyMemo\EasyMemo\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="D:\MyCode\EasyMemo\EasyMemo\build\intermediates\pre-dexed\debug\activation-404d814dad1ac0960083aa9ba079e8e123c36c79.jar" />
+    </item>
+    <item
+        jar="D:\MyCode\EasyMemo\EasyMemo\build\intermediates\exploded-aar\EasyMemo\AndroidSwipeLayout\unspecified\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9b6a9a9078af571732159b904ad423b03b7cc786">
+        <dex dex="D:\MyCode\EasyMemo\EasyMemo\build\intermediates\pre-dexed\debug\android-support-v4-b96c3f22f76ea46c8867abc40868478ebee7bb2b.jar" />
+    </item>
+    <item
+        jar="D:\MyCode\EasyMemo\EasyMemo\build\intermediates\exploded-aar\EasyMemo\AndroidSwipeLayout\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a27296f36b9c0e8b9c70b9942c18a742d3d5d78">
+        <dex dex="D:\MyCode\EasyMemo\EasyMemo\build\intermediates\pre-dexed\debug\classes-055ab4aaf2547c17a9d917871ae8d04767470f0b.jar" />
+    </item>
+    <item
+        jar="D:\MyCode\EasyMemo\EasyMemo\libs\umeng-update-v2.4.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ee700e317f574886dc0a236b801f219df6fbd26d">
+        <dex dex="D:\MyCode\EasyMemo\EasyMemo\build\intermediates\pre-dexed\debug\umeng-update-v2.4.2-3c39315aefb5c5295195ccd28ed7c789c213a13a.jar" />
+    </item>
+
+</items>
